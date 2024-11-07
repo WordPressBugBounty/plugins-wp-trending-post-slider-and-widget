@@ -37,7 +37,7 @@ class Wtpsw_Admin {
 		add_submenu_page( 'wtpsw-settings', __( 'Getting Started - WP Trending Post Slider and Widget', 'wtpsw' ), __( 'Getting Started', 'wtpsw' ), 'edit_posts', 'wtpsw-help', array( $this, 'wtpsw_designs_page' ) );
 
 		// Register plugin premium page
-		add_submenu_page( 'wtpsw-settings', __( 'Upgrade To Premium - Trending/Popular Post Slider and Widget', 'wtpsw' ), '<span style="color:#ff2700">'.__( 'Upgrade To Pro - Try Pro For 5 Days Free', 'wtpsw' ).'</span>', 'manage_options', 'wtpsw-premium', array( $this, 'wtpsw_premium_page' ));
+		add_submenu_page( 'wtpsw-settings', __( 'Upgrade To Premium - Trending/Popular Post Slider and Widget', 'wtpsw' ), '<span style="color:#ff2700">'.__( 'Upgrade To PRO – Early Back Friday Deals', 'wtpsw' ).'</span>', 'manage_options', 'wtpsw-premium', array( $this, 'wtpsw_premium_page' ));
 	}
 
 	/**

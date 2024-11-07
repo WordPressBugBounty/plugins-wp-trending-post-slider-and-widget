@@ -38,7 +38,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 								</div>
 								<div class="inside">
 									<p><?php esc_html_e('Boost design and best solution for your website.', 'wtpsw'); ?></p>
-									<a class="button button-primary button-orange" href="<?php echo esc_url( WTPSW_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><?php esc_html_e( 'Try Pro For 5 Days Free', 'wtpsw' ); ?></a>
+									<a class="button button-primary button-orange" href="<?php echo esc_url( WTPSW_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><?php esc_html_e( 'Try Pro with Back Friday Deals', 'wtpsw' ); ?></a>
 								</div><!-- .inside -->
 							</div><!-- #general -->
 
@@ -151,7 +151,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 										<li>100% Multi language</li>
 									</ul>
 									<div class="upgrade-to-pro">Gain access to <strong>WP Trending Post Slider and Widget</strong> included in <br /><strong>Essential Plugin Bundle</div>
-									<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WTPSW_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e( 'Try Pro For 5 Days Free', 'wtpsw' ); ?></a>
+									<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WTPSW_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e( 'Try Pro with Back Friday Deals', 'wtpsw' ); ?></a>
 								</div><!-- .inside -->
 							</div><!-- #general -->
 						</div><!-- .meta-box-sortables -->

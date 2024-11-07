@@ -4,7 +4,7 @@
  * Plugin URI: https://www.essentialplugin.com/wordpress-plugin/trending-post-slider-widget/
  * Description: Show Trending/Popular post in page and sidebar with slider/Grid block with different designs. Also work with Gutenberg shortcode block. 
  * Author: WP OnlineSupport, Essential Plugin
- * Version: 1.8.1
+ * Version: 1.8.2
  * Author URI: https://www.essentialplugin.com/
  * Text Domain: wtpsw
  *
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 
 if( ! defined( 'WTPSW_VERSION' ) ) {
-	define( 'WTPSW_VERSION', '1.8.1' ); // Version of plugin
+	define( 'WTPSW_VERSION', '1.8.2' ); // Version of plugin
 }
 
 if( ! defined( 'WTPSW_DIR' ) ) {
@@ -52,11 +52,11 @@ if( ! defined( 'WTPSW_SITE_LINK' ) ) {
 }
 
 if( ! defined( 'WTPSW_PLUGIN_LINK_UNLOCK' ) ) {
-	define('WTPSW_PLUGIN_LINK_UNLOCK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Trending-Popular&utm_campaign=Features-PRO'); // Plugin link
+	define('WTPSW_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Trending-Popular&utm_campaign=Features-PRO'); // Plugin link
 }
 
 if( ! defined( 'WTPSW_PLUGIN_LINK_UPGRADE' ) ) {
-	define('WTPSW_PLUGIN_LINK_UPGRADE', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Trending-Popular&utm_campaign=Upgrade-PRO'); // Plugin link
+	define('WTPSW_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Trending-Popular&utm_campaign=Upgrade-PRO'); // Plugin link
 }
 
 /**

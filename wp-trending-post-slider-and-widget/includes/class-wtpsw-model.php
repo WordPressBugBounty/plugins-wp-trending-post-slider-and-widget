@@ -66,7 +66,7 @@ class Wtpsw_Model {
 		// If only want to get count
 		if( isset( $args['getcount'] ) && $args['getcount'] == '1' ) {
 			$result_data = $result->post_count;
-		}  elseif ( isset( $args['list_data'] ) && ! empty( $args['list_data'] )) { // Data with post and count in array format
+		} elseif ( isset( $args['list_data'] ) && ! empty( $args['list_data'] )) { // Data with post and count in array format
 
 		// Converting retrived post data to array
 		$result_data = wtpsw_object_to_array( $result->posts );
