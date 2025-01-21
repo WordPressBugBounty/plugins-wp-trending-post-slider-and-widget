@@ -31,6 +31,90 @@ if ( !defined( 'ABSPATH' ) ) {
 		.wpos-plugin-pricing-table thead th:nth-child(1) {background: transparent;}
 		.wpos-plugin-pricing-table thead th:nth-child(3) p{color:#000;}
 
+		/* welcome-screen-css start -M */
+		.wtpsw-sf-btn{display: inline-block; font-size: 18px; padding: 10px 25px; border-radius: 100px;  background-color: #ff5d52; border-color: #ff5d52; color: #fff !important; font-weight: 600; text-decoration: none;}
+		.wtpsw-sf-btn:hover,
+		.wtpsw-sf-btn:focus{background-color: #ff5d52; border-color: #ff5d52;}
+		.wtpsw-inner-Bonus-class{background: #46b450;
+		  border-radius: 20px;
+		  font-weight: 700;
+		  padding: 5px 10px;
+		  color: #fff;
+		    line-height: 1;
+		  font-size: 12px;}
+
+		.wtpsw-black-friday-feature{padding: 30px 40px;
+		  background: #fafafa;
+		  border-radius: 20px 20px 0 0;
+		  gap: 60px;
+		  align-items: center;
+		  flex-direction: row;
+		  display: flex;}
+		.wtpsw-black-friday-feature .wtpsw-inner-deal-class{flex-direction: column;
+		  gap: 15px;
+		  display: flex;
+		  align-items: flex-start;}
+		.wtpsw-black-friday-feature ul li{text-align: left;}
+		.wtpsw-black-friday-feature .wtpsw-inner-list-class {
+		  display: grid;
+		  grid-template-columns: repeat(4,1fr);
+		  gap: 10px;
+		}
+		.wtpsw-black-friday-feature .wtpsw-list-img-class {
+		  min-height: 95px;
+		  display: flex;
+		  align-items: center;
+		  background: #fff;
+		  border-radius: 20px;
+		  flex-direction: column;
+		  gap: 10px;
+		  justify-content: center;
+		  padding: 10px;color: #000;
+		  font-size: 12px;
+		}
+		.wtpsw-black-friday-banner-wrp .wtpsw-list-img-class img {
+		  width: 100%;
+		  flex: 0 0 40px;
+		  font-size: 20px;
+		  height: 40px;
+		  width: 40px;
+		  box-shadow: inset 0px 0px 15px 2px #c4f2ac;
+		  border-radius: 14px;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  padding: 10px;
+		}
+
+		.wtpsw-main-feature-item{background: #fafafa;
+		  padding: 20px 15px 40px;
+		  border-radius: 0 0 20px 20px;margin-bottom: 40px;}
+		.wtpsw-inner-feature-item{display: flex;
+		  gap: 30px;
+		  padding: 0 15px;}
+		.wtpsw-list-feature-item {
+		  border: 1px solid #ddd;
+		  padding: 10px 15px;
+		  border-radius: 8px;text-align: left;
+		}
+		.wtpsw-list-feature-item img {
+		  width: 36px !important;
+		  padding: 5px;
+		  border: 1px solid #ccc;
+		  border-radius: 50%;margin-bottom: 5px;
+		}
+		.wtpsw-list-feature-item h5{margin: 0;
+		  font-weight: bold;font-size: 16px;
+		  text-decoration: underline;
+		  text-underline-position: under;
+		  color: #000;}
+		.wtpsw-list-feature-item p {
+		  color: #505050;
+		  font-size: 12px;
+		  margin-bottom: 0;
+		}
+		/* welcome-screen-css end -M */
+
 		/* Tablebody */
 		.wpos-plugin-pricing-table tbody th{background: #fff; border-left: 1px solid #ccc; font-weight: 600;}
 		.wpos-plugin-pricing-table tbody th span{font-weight: normal; font-size: 87.5%; color: #999; display: block;}
@@ -53,8 +137,71 @@ if ( !defined( 'ABSPATH' ) ) {
 		.wpos-new-feature{ font-size: 10px; color: #fff; font-weight: bold; background-color: #03aa29; padding:1px 4px; font-style: normal; }
 	</style>
 
-	<div class="html5video-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( WTPSW_PLUGIN_LINK_UPGRADE ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url(  WTPSW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	<!-- <div class="wtpsw-black-friday-banner-wrp">
+		<a href="<?php // echo esc_url( WTPSW_PLUGIN_LINK_UPGRADE ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url(  WTPSW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
+
+	<div class="wtpsw-black-friday-banner-wrp" style="background:#e1ecc8;padding: 20px 20px 40px; border-radius:5px; text-align:center;margin-bottom: 40px;">
+		<h2 style="font-size:30px; margin-bottom:10px;"><span style="color:#0055fb;">WP Featured Content and Slider</span> is included in <span style="color:#0055fb;">Essential Plugin Bundle</span> </h2> 
+		<h4 style="font-size: 18px;margin-top: 0px;color: #ff5d52;margin-bottom: 24px;">Now get Designs, Optimization, Security, Backup, Migration Solutions @ one stop. </h4>
+
+		<div class="wtpsw-black-friday-feature">
+
+			<div class="wtpsw-inner-deal-class" style="width:40%;">
+				<div class="wtpsw-inner-Bonus-class">Bonus</div>
+				<div class="wtpsw-image-logo" style="font-weight: bold;font-size: 26px;color: #222;"><img style="width: 34px; height:34px;vertical-align: middle;margin-right: 5px;" class="wtpsw-img-logo" src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/essential-logo-small.png" alt="essential-logo" /><span class="wtpsw-esstial-name" style="color:#0055fb;">Essential </span>Plugin</div>
+				<div class="wtpsw-sub-heading" style="font-size: 16px;text-align: left;font-weight: bold;color: #222;margin-bottom: 10px;">Includes All premium plugins at no extra cost.</div>
+				<a class="wtpsw-sf-btn" href="<?php echo esc_url( WTPSW_PLUGIN_LINK_UPGRADE ); ?>" target="_blank">Grab The Deal</a>
+			</div>
+
+			<div class="wtpsw-main-list-class" style="width:60%;">
+				<div class="wtpsw-inner-list-class">
+					<div class="wtpsw-list-img-class"><img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/img-slider.png" alt="essential-logo" /> Image Slider</li></div>
+
+					<div class="wtpsw-list-img-class"><img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/advertising.png" alt="essential-logo" /> Publication</li></div>
+
+					<div class="wtpsw-list-img-class"><img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/marketing.png" alt="essential-logo" /> Marketing</li></div>
+
+					<div class="wtpsw-list-img-class"><img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/photo-album.png" alt="essential-logo" /> Photo album</li></div>
+
+					<div class="wtpsw-list-img-class"><img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/showcase.png" alt="essential-logo" /> Showcase</li></div>
+
+					<div class="wtpsw-list-img-class"><img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/shopping-bag.png" alt="essential-logo" /> WooCommerce</li></div>
+
+					<div class="wtpsw-list-img-class"><img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/performance.png" alt="essential-logo" /> Performance</li></div>
+
+					<div class="wtpsw-list-img-class"><img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/security.png" alt="essential-logo" /> Security</li></div>
+
+					<div class="wtpsw-list-img-class"><img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/forms.png" alt="essential-logo" /> Pro Forms</li></div>
+
+					<div class="wtpsw-list-img-class"><img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/seo.png" alt="essential-logo" /> SEO</li></div>
+
+					<div class="wtpsw-list-img-class"><img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/backup.png" alt="essential-logo" /> Backups</li></div>
+
+					<div class="wtpsw-list-img-class"><img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/White-labeling.png" alt="essential-logo" /> Migration</li></div>
+				</div>
+			</div>
+		</div>
+		<div class="wtpsw-main-feature-item">
+			<div class="wtpsw-inner-feature-item">
+				<div class="wtpsw-list-feature-item">
+					<img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/layers.png" alt="layer" />
+					<h5>Site management</h5>
+					<p>Manage, update, secure & optimize unlimited sites.</p>
+				</div>
+				<div class="wtpsw-list-feature-item">
+					<img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/risk.png" alt="backup" />
+					<h5>Backup storage</h5>
+					<p>Secure sites with auto backups and easy restore.</p>
+				</div>
+				<div class="wtpsw-list-feature-item">
+					<img src="<?php echo esc_url( WTPSW_URL ); ?>assets/images/logo-image/support.png" alt="support" />
+					<h5>Support</h5>
+					<p>Get answers on everything WordPress at anytime.</p>
+				</div>
+			</div>
+		</div>
+		<a class="wtpsw-sf-btn" href="<?php echo esc_url( WTPSW_PLUGIN_LINK_UPGRADE ); ?>" target="_blank">Grab The Deal</a>
 	</div>
 
 	<div id="poststuff">
@@ -73,7 +220,7 @@ if ( !defined( 'ABSPATH' ) ) {
 							<th>
 								<h2 class="wpos-epb">Premium</h2>
 								<p>Gain access to <strong>Trending Post Slider and Widget</strong></p>
-								<a href="<?php echo esc_url(WTPSW_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Try Pro with Back Friday Deals</a>
+								<a href="<?php echo esc_url(WTPSW_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Upgrade To PRO</a>
 							</th>
 						</tr>
 					</thead>
@@ -83,7 +230,7 @@ if ( !defined( 'ABSPATH' ) ) {
 							<th></th>
 							<td></td>
 							<td><p>Gain access to <strong>Trending Post Slider and Widget</strong></p>
-							<a href="<?php echo esc_url(WTPSW_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Try Pro with Back Friday Deals</a>
+							<a href="<?php echo esc_url(WTPSW_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Upgrade To PRO</a>
 						</tr>
 					</tfoot>
 

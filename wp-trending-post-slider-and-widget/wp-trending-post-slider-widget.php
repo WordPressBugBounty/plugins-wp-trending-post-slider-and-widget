@@ -4,7 +4,7 @@
  * Plugin URI: https://www.essentialplugin.com/wordpress-plugin/trending-post-slider-widget/
  * Description: Show Trending/Popular post in page and sidebar with slider/Grid block with different designs. Also work with Gutenberg shortcode block. 
  * Author: WP OnlineSupport, Essential Plugin
- * Version: 1.8.2
+ * Version: 1.8.3
  * Author URI: https://www.essentialplugin.com/
  * Text Domain: wtpsw
  *
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 
 if( ! defined( 'WTPSW_VERSION' ) ) {
-	define( 'WTPSW_VERSION', '1.8.2' ); // Version of plugin
+	define( 'WTPSW_VERSION', '1.8.3' ); // Version of plugin
 }
 
 if( ! defined( 'WTPSW_DIR' ) ) {
