@@ -3,13 +3,13 @@
  * Plugin Name: Trending/Popular Post Slider and Widget
  * Plugin URI: https://www.essentialplugin.com/wordpress-plugin/trending-post-slider-widget/
  * Description: Show Trending/Popular post in page and sidebar with slider/Grid block with different designs. Also work with Gutenberg shortcode block. 
- * Author: WP OnlineSupport, Essential Plugin
- * Version: 1.8.3
+ * Author: Essential Plugin
+ * Version: 1.8.4
  * Author URI: https://www.essentialplugin.com/
  * Text Domain: wtpsw
  *
- * @package WordPress
- * @author WP OnlineSupport
+ * @package Trending/Popular Post Slider and Widget
+ * @author Essential Plugin
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -22,9 +22,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @package WP Trending Post Slider and Widget
  * @since 1.0.0
  */
-
 if( ! defined( 'WTPSW_VERSION' ) ) {
-	define( 'WTPSW_VERSION', '1.8.3' ); // Version of plugin
+	define( 'WTPSW_VERSION', '1.8.4' ); // Version of plugin
 }
 
 if( ! defined( 'WTPSW_DIR' ) ) {
@@ -38,14 +37,6 @@ if( ! defined( 'WTPSW_URL' ) ) {
 if( ! defined( 'WTPSW_META_PREFIX' ) ) {
 	define( 'WTPSW_META_PREFIX', '_wtpsw_' ); // Plugin meta prefix
 }
-
-// if( ! defined( 'WTPSW_PLUGIN_LINK_UNLOCK' ) ) {
-// 	define( 'WTPSW_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/essential-plugin-bundle-pricing/?utm_source=WP&utm_medium=Trending-Popular&utm_campaign=Features-PRO' ); // Plugin link
-// }
-
-// if( ! defined( 'WTPSW_PLUGIN_LINK_UPGRADE' ) ) {
-// 	define( 'WTPSW_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Trending-Popular&utm_campaign=Upgrade-PRO' ); // Plugin Check link
-// }
 
 if( ! defined( 'WTPSW_SITE_LINK' ) ) {
 	define('WTPSW_SITE_LINK','https://www.essentialplugin.com'); // Plugin link
