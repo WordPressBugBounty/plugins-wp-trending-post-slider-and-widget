@@ -2,8 +2,8 @@
 Contributors: essentialplugin
 Tags: popular trending posts carousel, popular posts slider, trending posts slider, popular trending posts widget, daily popular post views,
 Requires at least: 4.0
-Tested up to: 6.8.1
-Stable tag: 1.8.4
+Tested up to: 6.8.3
+Stable tag: 1.8.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -187,6 +187,12 @@ WP Trending Post Slider and Widget will list post based on your post views or Co
 6. Also work with Gutenberg shortcode block.
 
 == Changelog ==
+
+= 1.8.6 (17, Nov 2025) =
+* [*] Fixed code conflict issue affecting widget saving.
+
+= 1.8.5 (12, Nov 2025) =
+* [*] Check compatibility with WordPress version 6.8.3
 
 = 1.8.4 (16, May 2025) =
 * [*] Check compatibility with WordPress version 6.8.1
